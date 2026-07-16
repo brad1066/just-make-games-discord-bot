@@ -1,0 +1,35 @@
+{
+  "name": "just-make-games-discord-bot",
+  "version": "0.0.1",
+  "description": "A bot for the Just Make Games discord channel.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon app.js",
+    "db:migrations": "node db.js",
+    "commands:deploy": "node commands/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brad1066/just-make-games-discord-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Bradley Hastings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brad1066/just-make-games-discord-bot/issues"
+  },
+  "homepage": "https://github.com/brad1066/just-make-games-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
